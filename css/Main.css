@@ -353,6 +353,8 @@
     min-height: 100vh;
     overflow: hidden;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
   }
   .intro{
     aspect-ratio: 900/300;
@@ -382,7 +384,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: calc( 100vh - 70px );
+    height: 100vh;
     z-index: 6;
   }
   .landing .title span{
@@ -405,6 +407,7 @@
     font-size: 20px;
     color: #fdfdfd;
     font-style: oblique;
+    margin-top: 20px;
   }
   .landing .container .image {
     width: 600px;
@@ -438,7 +441,6 @@
       height: calc( 100vh - 90px );
       text-align: center;
       align-content: center;
-      padding-bottom: 120px;
     }
     .landing .container .intro-text{
       margin: auto 0px;
