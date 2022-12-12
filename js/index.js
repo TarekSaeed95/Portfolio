@@ -135,6 +135,10 @@ function delayAnimation (arr,...moveDirection){
     featuresCenter.classList.add("animate__animated","animate__fadeInUp")
     featuresrRight.classList.add("animate__animated","animate__bounceInLeft")
 }
+if(ScrollingY>featuresSection.offsetTop)
+{
+    featuresTitle.classList.add("turnonmobile")
+}
     if(ScrollingY>testmonialsSection.offsetTop)
 {
     testmonialsSection.classList.add("animate__animated","animate__fadeInUp")
@@ -179,6 +183,11 @@ function delayAnimation (arr,...moveDirection){
     pricingCenter.classList.add("animate__animated","animate__fadeInUp")
     pricingRight.classList.add("animate__animated","animate__bounceInLeft")
 }
+if(ScrollingY>pricingSection.offsetTop)
+{
+    pricingTitle.classList.add("turnonmobile")
+}
+
     if(ScrollingY>videosSection.offsetTop)
 {
     videosSection.classList.add("animate__animated","animate__fadeInUp")
