@@ -127,7 +127,7 @@ function delayAnimation (arr,...moveDirection){
     galleryTitle.classList.add("turnon")
     delayAnimation (galleryCards,"animate__animated","animate__fadeInUp")
 }
-    if(ScrollingY>featuresSection.offsetTop-300+featuresSection.offsetHeight)
+    if(ScrollingY>featuresSection.offsetTop-300+featuresSection.offsetHeight/2)
 {
     featuresSection.classList.add("animate__animated","animate__fadeInUp")
     featuresTitle.classList.add("turnon")
@@ -175,7 +175,7 @@ if(ScrollingY>featuresSection.offsetTop)
     eventsSection.classList.add("animate__animated","animate__fadeInUp")
     eventsTitle.classList.add("turnon")
 }
-    if(ScrollingY>pricingSection.offsetTop-300 + pricingSection.offsetHeight)
+    if(ScrollingY>pricingSection.offsetTop-300 + pricingSection.offsetHeight/2)
 {
     pricingSection.classList.add("animate__animated","animate__fadeInUp")
     pricingTitle.classList.add("turnon")

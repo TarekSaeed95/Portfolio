@@ -235,6 +235,7 @@
   }
   .header .container .links ul {
     display: flex;
+    gap: 50px;
   }
   .header .container .links ul li {
     height: 70px;
@@ -262,9 +263,8 @@
  
   .header .container .links ul a {
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     margin: auto 0px;
-    padding: 0px 30px;
   }
   .header .container .links ul li:hover a{
     color: var(--main-color);
@@ -322,11 +322,14 @@
     }
     .header .container .links ul a {
       font-size: 16px;
-      padding: 0px 15px 0 0;
   }
     
     .header .container .links ul {
       justify-content: center;
+      gap:10px
+    }
+    .header .container .links ul li:hover::after{
+      left:-100%
     }
     .header .container .links ul li{margin: 0px;
       height: 50px;}
@@ -434,6 +437,7 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     margin-bottom: 50px;
+    z-index: 10;
     
 }
   @media (max-width: 768px) {
